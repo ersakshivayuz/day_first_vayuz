@@ -154,6 +154,7 @@ Widget popularPlaceItem({Color? textColor ,Color? buttonColor
 
     padding: EdgeInsets.all(15),
     child: Padding(
+
       padding: const EdgeInsets.all(8.0),
       child: Text(title ?? "default", style: TextStyle(
           color: textColor,
